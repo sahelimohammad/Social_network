@@ -1,4 +1,4 @@
-# Carlovers
+# Social Network
 
 A Django social networking website with user profiles, posts, reactions, comments, following, and real-time chat rooms.
 
@@ -69,10 +69,10 @@ Paste the generated key into `.env`, replacing `replace-with-a-long-random-secre
 If Docker is available:
 
 ```bash
-docker run --name carlovers-redis -p 6379:6379 -d redis:7
+docker run --name social-network-redis -p 6379:6379 -d redis:7
 ```
 
-If the container already exists but is stopped, use `docker start carlovers-redis` instead. Redis is needed for WebSocket chat; the standard Django pages can be explored without using chat.
+If the container already exists but is stopped, use `docker start social-network-redis` instead. Redis is needed for WebSocket chat; the standard Django pages can be explored without using chat.
 
 ### 4. Prepare the database and launch
 
