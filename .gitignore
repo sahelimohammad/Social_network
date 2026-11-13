@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and editor settings
+.venv/
+venv/
+env/
+social/
+social2/
+.vscode/
+.idea/
+
+# Local database and uploaded content
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Runtime and OS files
+staticfiles/
+.DS_Store
+Thumbs.db
