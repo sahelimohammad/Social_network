@@ -1,6 +1,6 @@
-# Carlovers — شبکه اجتماعی با جنگو
+# Social Network — شبکه اجتماعی با جنگو
 
-Carlovers یک پروژه شبکه اجتماعی تحت وب است که با Django و Python پیاده‌سازی شده است. کاربران می‌توانند حساب بسازند، پروفایل خود را ویرایش کنند، پست منتشر کنند، به پست‌ها واکنش نشان دهند و در اتاق‌های گفتگو پیام بفرستند.
+Social Network یک پروژه شبکه اجتماعی تحت وب است که با Django و Python پیاده‌سازی شده است. کاربران می‌توانند حساب بسازند، پروفایل خود را ویرایش کنند، پست منتشر کنند، به پست‌ها واکنش نشان دهند و در اتاق‌های گفتگو پیام بفرستند.
 
 [English README](README.md)
 
@@ -61,10 +61,10 @@ python -c "from django.core.management.utils import get_random_secret_key; print
 اگر Docker نصب است، می‌توانید از این دستور استفاده کنید:
 
 ```bash
-docker run --name carlovers-redis -p 6379:6379 -d redis:7
+docker run --name social-network-redis -p 6379:6379 -d redis:7
 ```
 
-اگر کانتینر قبلاً ساخته شده، از `docker start carlovers-redis` استفاده کنید.
+اگر کانتینر قبلاً ساخته شده، از `docker start social-network-redis` استفاده کنید.
 
 **۴. ایجاد پایگاه داده و اجرای سرور**
 
